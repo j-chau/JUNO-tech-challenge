@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/29cf3aee8c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Raleway:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link href="normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="featured_posts.css" rel="stylesheet">
+    <title>JUNO ・ College of Technology</title>
+</head>
+
+<body>
+
+    <div class="nav-bg">
+        <div class="nav-size flex-container">
+            <div class="logo">HackerYou</div>
+            <input type="checkbox" id="burger-toggle" class="burger-toggle">
+            <label for="burger-toggle" class="burger-menu">
+                <div class="line line-top"></div>
+                <div class="line line-mid"></div>
+                <div class="line line-bottom"></div>
+            </label>
+            <nav aria-labelledby="primary-navigation" class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Bootcamp</a></li>
+                    <li><a href="#">Part-Time</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <header class="header-banner">
+        <img src="assets/image-main.jpg" class="banner-img"
+            alt="two students sitting at a long table in front of large windows in downtown">
+        <div class="header-content">
+            <p class="heading">HackerYou tech Test</p>
+            <p class="header-sub">twenty-eighteen</p>
+            <p class="header-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonnum my nibh
+                euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                nostrud exerci tation ullamcorper.</p>
+        </div>
+    </header>
+
+    <section class="featured-post">
+        <h1>Featured Posts</h1>
+
+        <div class="slideshow">
+            <input type="radio" id="slide1" name="featured_posts" checked>
+            <input type="radio" id="slide2" name="featured_posts">
+            <input type="radio" id="slide3" name="featured_posts">
+
+            <div class="slide-nav-sm">
+                <a href="#post1" class="dot-nav"></a>
+                <a href="#post2" class="dot-nav"></a>
+                <a href="#post3" class="dot-nav"></a>
+            </div>
+
+            <div class="scroll-nav left-nav">
+                <label for="slide3" class="arrow1"><i class="fas fa-chevron-left"></i></label>
+                <label for="slide1" class="arrow2"><i class="fas fa-chevron-left"></i></label>
+                <label for="slide2" class="arrow3"><i class="fas fa-chevron-left"></i></label>
+            </div>
+
+            <div class="slide-container">
+                <div class="slide-nav">
+                    <label for="slide1" id="dot1" class="dot-nav"></label>
+                    <label for="slide2" id="dot2" class="dot-nav"></label>
+                    <label for="slide3" id="dot3" class="dot-nav"></label>
+                </div>
+
+                <div class="scroll-container">
+
+                    <div class="card" id="post1">
+                        <a href="#" class="read-more">Read More</a>
+                        <div class="card-body">
+                            <h2 class="card-title">HackerYou Tech Test</h2>
+                            <p class="header-sub date">March 1st, 2018</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                                nonnum my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                                enim ad minim veniam, quis nostrud.</p>
+                        </div>
+                        <div class="card-img">
+                            <div class="card-hover">
+                                Read More
+                            </div>
+                            <img src="assets/image-small-1.jpg" class="crop crop-btm"
+                                alt="two students with laptops sitting in sofa chairs">
+                        </div>
+                    </div>
+
+                    <div class="card" id="post2">
+                        <a href="#" class="read-more">Read More</a>
+                        <div class="card-body">
+                            <h2 class="card-title">HackerYou Tech Test</h2>
+                            <p class="header-sub date">March 1st, 2018</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                                nonnum my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                                enim ad minim veniam, quis nostrud.</p>
+                        </div>
+                        <div class="card-img">
+                            <div class="card-hover">
+                                Read More
+                            </div>
+                            <img src="assets/image-small-2.jpg" class="crop crop-right"
+                                alt="a lounge area with white pillars, tall ceilings, and ceiling-to-floor windows, filled with students">
+                        </div>
+                    </div>
+
+                    <div class="card" id="post3">
+                        <a href="#" class="read-more">Read More</a>
+                        <div class="card-body">
+                            <h2 class="card-title">HackerYou Tech Test</h2>
+                            <p class="header-sub date">March 1st, 2018</p>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                                nonnum my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                                enim ad minim veniam, quis nostrud.</p>
+                        </div>
+                        <div class="card-img">
+                            <div class="card-hover">
+                                Read More
+                            </div>
+                            <img src="assets/image-small-3.jpg" class="crop crop-left"
+                                alt="two students with laptops sitting on a couch in front of large windows">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="scroll-nav rght-nav">
+                <label for="slide2" class="arrow1"><i class="fas fa-chevron-right"></i></label>
+                <label for="slide3" class="arrow2"><i class="fas fa-chevron-right"></i></label>
+                <label for="slide1" class="arrow3"><i class="fas fa-chevron-right"></i></label>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="container">
+
+        <h1>Blog</h1>
+        <div class="grid-container">
+            <section class="blog">
+                <div class="card-blog" id="blog1">
+                    <a href="#" class="read-more">Read More</a>
+                    <div class="card-body">
+                        <h2 class="card-title">HackerYou Tech Test</h2>
+                        <p class="header-sub date">March 1st, 2018</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                            nonnum my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                            enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                            aliquip
+                            ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit
+                            esse
+                            molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero.</p>
+                    </div>
+                    <div class="card-img">
+                        <div class="card-hover">
+                            Read More
+                        </div>
+                        <img src="assets/image-small-4.jpg" class="crop crop-top"
+                            alt="many students in a white classroom while a teacher presents at the front">
+                    </div>
+                </div>
+
+                <div class="card-blog">
+                    <a href="#" class="read-more">Read More</a>
+                    <div class="card-body">
+                        <h2 class="card-title">HackerYou Tech Test</h2>
+                        <p class="header-sub date">March 1st, 2018</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                            nonnum my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                            enim ad minim veniam, quis nostrud.</p>
+                    </div>
+                    <div class="card-img">
+                        <div class="card-hover">
+                            Read More
+                        </div>
+                        <img src="assets/image-small-5.jpg" class="crop crop-mid"
+                            alt="a lounge area with white pillars, tall ceilings, and ceiling-to-floor windows, filled with students">
+                    </div>
+                </div>
+
+                <div class="card-blog">
+                    <a href="#" class="read-more">Read More</a>
+                    <div class="card-body">
+                        <h2 class="card-title">HackerYou Tech Test</h2>
+                        <p class="header-sub date">March 1st, 2018</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                            nonnum my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                            enim ad minim veniam, quis nostrud.</p>
+                    </div>
+                    <div class="card-img">
+                        <div class="card-hover">
+                            Read More
+                        </div>
+                        <img src="assets/image-small-6.jpg" class="crop crop-mid"
+                            alt="a group of four students standing at a desk, all huddled around one laptop">
+                    </div>
+                </div>
+            </section>
+
+            <nav aria-labelledby="blog-pages-navigation" class="pagination">
+                <ul class="page-links">
+                    <li class="current" aria-current="page"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                </ul>
+            </nav>
+
+            <aside class="about-us">
+                <div class="card-blog card-abt">
+                    <div class="card-body">
+                        <h2 class="card-title">About Us</h2>
+                        <p class="header-sub date">March 1st, 2018</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                            nonnum my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                            enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                            aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+                            vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla</p>
+                    </div>
+                    <div class="about-img">
+                        <img src="assets/image-sidebar.jpg" class="crop-abt"
+                            alt="many students in a white classroom while a teacher presents at the front">
+                    </div>
+                </div>
+
+                <form class="side-content">
+                    <label for="email_subscription">Email</label>
+                    <input type="email" class="" id="email_subscription" placeholder="email address">
+                    <button type="submit" class="">Subscribe</button>
+                </form>
+            </aside>
+
+            <nav aria-labelledby="recent-blog-post-list" class="recent">
+                <h1>Recent Posts </h1>
+
+                <!-- 
+                if time allows, add drop-down for recent posts on mobile view
+                 -->
+
+                <!-- <input type="checkbox" id="burger-toggle" class="burger-toggle">
+                <label for="burger-toggle" class="burger-menu"> -->
+
+                <!-- 
+                LAST "NECESSARY" ITEM:
+                    FIND WAY TO CHECK COMPATIBILITY FOR SAFARI
+                 -->
+
+                <ul class="recent-links">
+                    <li class=""><a href="#">Lorem ipsum dolor sit amet ullamcorper</a></li>
+                    <li><a href="#">Consectetuer adipiscing elit</a></li>
+                    <li><a href="#">Sed diam nonnummy nibh euismod tincidunt</a></li>
+                    <li><a href="#">Laoreet dolore magna aliquam erat</a></li>
+                    <li><a href="#">Volutpat ut wisi enim ad minim veniam</a></li>
+                    <li><a href="#">Quis nostrud exerci tation</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer1">
+            <div class="footer-top">
+                <div class="footer-content">
+                    <h1>HackerYou Tech Test</h1>
+                    <p class="footer-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                        nonnum my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                        enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
+                        aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in</p>
+                </div>
+                <nav aria-labelledby="footer-navigation" class="footer-nav">
+                    <ul class="footer-links">
+                        <li><a class="" href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Bootcamp</a></li>
+                        <li><a href="#">Part-Time</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="subscribe">
+                <h1>Subscribe to our Newsletter</h1>
+                <p class="footer-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                    nonnum my nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi
+                    enim ad minim</p>
+                <form class="form-sub">
+                    <label for="email_subscription">Email</label>
+                    <input type="email" id="email_subscription" placeholder="email address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-wrap">
+            <div class="footer2">
+                <span class="copy">
+                    <h1>&#169; 2018 HackerYou</h1>
+                </span>
+                <nav aria-labelledby="social-media-links" class="social">
+                    <ul class="socmed-links">
+                        <li><a href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram fa-lg"></i></a></li>
+                        <li><a href="#"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g fa-lg"></i></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
